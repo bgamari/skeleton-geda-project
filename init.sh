@@ -41,8 +41,7 @@ process front.gvp
 process back.gvp
     
 git add project
-git rm --cached README.mkd
-mv README.mkd README.skeleton.mkd
+cp README.mkd README.skeleton.mkd
 cat >README.mkd <<EOF
 $name - A project description
 
