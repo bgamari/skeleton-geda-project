@@ -87,8 +87,23 @@ for more details on this process.
 
 ## How do I make footprints?
 
-There are several tools for generating footprints. See the
-[gEDA wiki](http://wiki.geda-project.org/geda:pcb_footprints) for more details.
+There are several tools for generating footprints. These include
+
+ * Darrell Harmon's [`footgen`](https://github.com/dlharmon/footgen) which converts
+   textual descriptions to `pcb`-compatible footprints
+ * Edward Hennessey's graphical [`gfootgen`](http://www.gedasymbols.org/user/edward_hennessy/gfootgen.html)
+ * DJ Delorie's web-based
+   [generator](http://www.gedasymbols.org/user/dj_delorie/tools/2pad.html)
+   for two-pad footprints
+ * DJ Delorie's web-based
+   [generator](http://www.gedasymbols.org/user/dj_delorie/tools/dilpad.html)
+   for dual-inline packages
+ * Stefan Salewski's text-based
+   [sfg](http://www.ssalewski.de/SFG.html.en) tool.
+
+See the [gEDA wiki][wiki] for more details.
+
+[wiki]: http://wiki.geda-project.org/geda:pcb_footprints
 
 
 ## How and why would I use hierarchical sheets?
